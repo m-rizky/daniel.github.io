@@ -1,0 +1,58 @@
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 375px) {
+   .container1 .img img{margin-top: -60%;}
+   .container1{padding-bottom:75% ;}
+  .h4 .text-white{margin-top: -24%; margin-left: 6%;}
+   .line .new1{margin-left:  -23%;;width: 65px; margin-top: -4px;}
+   .line .new2{border:3px solid red; border-radius: 100px; margin-left:  -40%;;width: 70px; margin-top: -4px;}
+   .line .new3{border:3px solid red; border-radius: 100px; margin-left:  -40%;;width: 70px; margin-top: -17px; margin-bottom: 20%;}
+   .p1{margin-left: -20px;}
+   div .col-sm-5 h5{font-size: 13px; padding-left: 27%; padding-bottom: 3%; margin-top: -3%; }
+   .biografi{margin-bottom: 10%;}
+   .footer{width:100%; }
+}
+/*untuk layar device berukuran sedang*/
+ @media screen and (min-width: 768px) {
+   .container1 .img img{margin-top: -25%;}
+    .container1{padding-bottom:60% ;}
+    .h4 .text-white{margin-top: -50%; margin-left: 6%;}
+     .line .new1{margin-left:  -23%;;width: 65px; margin-top: -4px;}
+     .line .new2{border:3px solid red; border-radius: 100px; margin-left:  -40%;;width: 70px; margin-top: -4px;}
+     .line .new3{border:3px solid red; border-radius: 100px; margin-left:  -40%;;width: 70px; margin-top: -17px; margin-bottom: 20%;}
+     .p1{margin-left: -20px;}
+     div .col-sm-5 h5{font-size: 13px; padding-left: 27%; padding-bottom: 3%; margin-top: -3%; }
+     .biografi{margin-bottom: 10%;}
+     .footer{width:100%; height: 15%;}
+     .container9{ margin-top: 10%;} 
+}
+/*untuk layar device berukuran besar*/  
+ @media screen and  (min-width: 1024px) {
+   .container1 .img img{margin-top: -25%;}
+   .container1{padding-bottom:60% ;}
+    .line .new1{margin-left:  -23%;;width: 65px; margin-top: -4px;}
+    .line .new2{border:3px solid red; border-radius: 100px; margin-left:  -40%;;width: 70px; margin-top: -4px;}
+    .line .new3{border:3px solid red; border-radius: 100px; margin-left:  -40%;;width: 70px; margin-top: -17px; margin-bottom: 20%;}
+    .p1{margin-left: -20px;}
+    div .col-sm-5 h5{font-size: 25px; padding-left: 27%; padding-bottom: 3%; margin-top: -3%; }
+    .biografi{margin-bottom: 10%;}
+ }
+body::-webkit-scrollbar {
+   width: 8px;               /* width of the entire scrollbar */
+ }
+ 
+ body::-webkit-scrollbar-track {
+   background: black;        /* color of the tracking area */
+ }
+ 
+ body::-webkit-scrollbar-thumb {
+   background-color:rgb(90, 7, 7);    /* color of the scroll thumb */
+   border-radius: 20px;       /* roundness of the scroll thumb */
+   
+ }
+/* nope */
+
+.new1{border:3px solid red; border-radius: 100px;}
+.line{margin-left: 7%;width: 65px; margin-top: -5px;}
+.biografi{color:white;width: 100%; height: 27vh; border: 3px solid  rgba(223, 17, 17, 0.719); border-radius: 10px;}
+.line .new2{border:3px solid red; border-radius: 100px; margin-left:  -100%;;width: 70px; margin-top: -4px;}
+.line .new3{border:3px solid red; border-radius: 100px; margin-left:  -140%;;width: 70px; margin-top: -17px; margin-bottom: 20%;}

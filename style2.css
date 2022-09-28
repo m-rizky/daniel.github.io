@@ -1,6 +1,6 @@
 /*untuk layar device berukuran kecil*/
 @media screen and (min-width: 320px) {
-   .container1 .img img{margin-top: -77%;}
+   .container1 .img img{margin-top: -80%;}
    .container1{padding-bottom:75% ;}
   .h4 .text-white{margin-top: -24%; margin-left: 6%;}
    .line .new1{margin-left:  -23%;;width: 65px; margin-top: -4px;}
